@@ -1,0 +1,7 @@
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\bin\Debug\Practica4.exe
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\bin\Debug\Practica4.pdb
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\obj\Debug\Practica4.csproj.CoreCompileInputs.cache
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\obj\Debug\Practica4.exe
+C:\Users\TICS\source\repos\PracticasUnidad1\Practica4\obj\Debug\Practica4.pdb
