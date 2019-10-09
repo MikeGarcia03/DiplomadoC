@@ -5,3 +5,10 @@ C:\Users\TICS\source\repos\PracticasUnidad1\Practica3\obj\Debug\Practica3.csproj
 C:\Users\TICS\source\repos\PracticasUnidad1\Practica3\obj\Debug\Practica3.exe
 C:\Users\TICS\source\repos\PracticasUnidad1\Practica3\obj\Debug\Practica3.pdb
 C:\Users\TICS\source\repos\PracticasUnidad1\Practica3\obj\Debug\Practica3.csprojAssemblyReference.cache
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\bin\Debug\Practica3.exe.config
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\bin\Debug\Practica3.exe
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\bin\Debug\Practica3.pdb
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\obj\Debug\Practica3.csprojAssemblyReference.cache
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\obj\Debug\Practica3.csproj.CoreCompileInputs.cache
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\obj\Debug\Practica3.exe
+C:\Users\TICS\Source\Repos\DiplomadoCSharp\PracticasUnidad1\Practica3\obj\Debug\Practica3.pdb
