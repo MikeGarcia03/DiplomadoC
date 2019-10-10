@@ -26,7 +26,7 @@ namespace Ejercicio2_3
                 Console.Write("Ingrese el nombre del producto: ");
                 nombreProducto = Console.ReadLine();
                 Console.Write("Diga el precio del produsto: ");
-                precioUnidadProducto = double.Parse(Console.ReadLine());
+                precioUnidadProducto = double.Parse(Console.ReadLine());//hola
 
 
             }
