@@ -36,7 +36,11 @@ namespace Ejercicio2_3
                 Console.WriteLine(" *Calculadora de impuesto y pago de un producto*");
                 //Impresion de los detalles y los resultados
                 Console.Write("\nProducto: " + nombreProducto);
-
+                Console.Write("\nCantidad: {0}", cantidadProducto);
+                Console.Write("\nPrecio por unidad: {0:C2}", precioUnidadProducto);
+                Console.Write("\n\nSub-Total: {0:C2}", subTotal);
+                Console.Write("\nITBIS: {0:C2}", itbis);
+                Console.Write("\nTotal: {0:C2}", total);
             }
             catch (Exception error) //Captura de la excepcion en caso de errores
             {
