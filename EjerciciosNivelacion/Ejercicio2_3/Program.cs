@@ -16,18 +16,26 @@ namespace Ejercicio2_3
         {
             //Declaracion de variables a utilizar en el programa
             string nombreProducto;
-            double precioUnidadProducto, cantidadProducto, subTotal, total, ITBIS=0.18;
+            double precioUnidadProducto, cantidadProducto, subTotal, itbis, total;
 
             Console.WriteLine(" *Calculadora de impuesto y pago de un producto*");//Titulo descriptivo del programa
             try //Manejo de excepciones en caso de errores
             {
-                Console.Write("\nEspecifique la cantidad del producto: "); //Mensaje para el usuario
-                cantidadProducto = double.Parse(Console.ReadLine()); //Captura de datos por teclado y conversion por parseo
-                Console.Write("Ingrese el nombre del producto: ");
-                nombreProducto = Console.ReadLine();
+                Console.Write("\nIngrese el nombre del producto: ");//Mensaje para el usuario
+                nombreProducto = Console.ReadLine();//Captura de datos por teclado y conversion por parseo
+                Console.Write("Especifique la cantidad del producto: ");
+                cantidadProducto = double.Parse(Console.ReadLine());
                 Console.Write("Diga el precio del produsto: ");
-                precioUnidadProducto = double.Parse(Console.ReadLine());//hola
+                precioUnidadProducto = double.Parse(Console.ReadLine());
 
+                subTotal = cantidadProducto * precioUnidadProducto;//Calculo del subtotal
+                itbis = subTotal * 0.18;//Calculo del impuesto
+                total = subTotal + itbis;// Calculo del total a pagar
+
+                Console.Clear();//Limpieza de la pantalla
+                Console.WriteLine(" *Calculadora de impuesto y pago de un producto*");
+                //Impresion de los detalles y los resultados
+                Console.Write("\nProducto: " + nombreProducto);
 
             }
             catch (Exception error) //Captura de la excepcion en caso de errores
