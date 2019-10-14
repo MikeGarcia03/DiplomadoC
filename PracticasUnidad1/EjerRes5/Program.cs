@@ -26,9 +26,12 @@ namespace EjerRes5
             valor = Console.ReadLine();
             num4 = int.Parse(valor);
 
-            sum = num1 + num2;
-            mult = num3 * num4;
-            div = num1 / num4;
+            // sum = num1 + num3 Incorrecto
+            sum = num1 + num2; //Correcto
+            // mult = num3 * num2 Incorrecto
+            mult = num3 * num4; //Correcto
+            // div = num1 / num1 Incorrecto
+            div = num1 / num4; //Correcto
 
             Console.Write("\nLa suma de los dos numeros es: ");
             Console.WriteLine(sum);
