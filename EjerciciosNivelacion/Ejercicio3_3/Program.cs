@@ -13,44 +13,49 @@ namespace Ejercicio3_3
         {
             //Declaracion de variables a utilizar en el programa
             int edad;
-            string[] calificacon = { "Bebe", "Niño", "Adolescente", "Joven", "Adulto", "Anciano", "Error" };
+            string[] etapa = { "Bebe", "Niño", "Adolescente", "Joven", "Adulto", "Anciano" };
 
-            Console.WriteLine(" Identifiacor de edad"); //Titulo descriptivo del programa
+            Console.WriteLine(" Identifiacor de etapa de vida segun su edad"); //Titulo descriptivo del programa
 
-            Console.Write("\nIngresa la nota #1: "); //Mensaje para el usuario
+            Console.Write("\nDiga su edad: "); //Mensaje para el usuario
 
             try //Manejo de excepciones en caso de errores
             {
                 edad = int.Parse(Console.ReadLine()); //Captura de datos por teclado convertidos por parseo
 
-                if (edad == 0 && edad < 65) //Validacion para promedio mayor o igual a 0 y menor a 65
+                if (edad == 0 || edad == 1) //Validacion para edad igual a 0 o 1
                 {
-                    Console.Write("\nNota Promedio: {0:N1}" +
-                        "\nCalificacion: {1}", promedio, calificacon[0]); //Impresion de informaciones y resultados
+                    Console.Write("\nEdad: {0}" +
+                        "\nUsted es: {1}", edad, etapa[0]); //Impresion de informaciones y resultados
                 }
-                else if (promedio >= 65 && promedio < 75) //Validacion para promedio mayor o igual a 65 y menor a 75
+                else if (edad >= 2 && edad <= 12) //Validacion para edad mayor o igual a 2 y menor o igual a 12
                 {
-                    Console.Write("\nNota Promedio: {0:N1}" +
-                        "\nCalificacion: {1}", promedio, calificacon[1]);
+                    Console.Write("\nEdad: {0}" +
+                        "\nUsted es: {1}", edad, etapa[1]);
                 }
-                else if (promedio >= 75 && promedio < 85) //Validacion para promedio mayor o igual a 75 y menor a 85
+                else if (edad >= 13 && edad <= 17) //Validacion para edad mayor o igual a 13 y menor o igual a 17
                 {
-                    Console.Write("\nNota Promedio: {0:N1}" +
-                        "\nCalificacion: {1}", promedio, calificacon[2]);
+                    Console.Write("\nEdad: {0}" +
+                        "\nUsted es: {1}", edad, etapa[2]);
                 }
-                else if (promedio >= 85 && promedio < 90) //Validacion para promedio mayor o igual a 85 y menor a 90
+                else if (edad >= 18 && edad <= 30) //Validacion para edad mayor o igual a 18 y menor o igual a 30
                 {
-                    Console.Write("\nNota Promedio: {0:N1}" +
-                        "\nCalificacion: {1}", promedio, calificacon[3]);
+                    Console.Write("\nEdad: {0}" +
+                        "\nUsted es: {1}", edad, etapa[3]);
                 }
-                else if (promedio >= 90 && promedio < 100) //Validacion para promedio mayor o igual a 90 y menor a 100
+                else if (edad >= 31 && edad <= 64) //Validacion para edad mayor o igual a 31 y menor o igual a 64
                 {
-                    Console.Write("\nNota Promedio: {0:N1}" +
-                        "\nCalificacion: {1}", promedio, calificacon[4]);
+                    Console.Write("\nEdad: {0}" +
+                        "\nUsted es: {1}", edad, etapa[4]);
                 }
-                else ////Validacion para promedios fuera del rango
+                else if (edad >= 65 && edad <= 120) //Validacion para edad mayor o igual a 65 y menor o igual a 120
                 {
-                    Console.Write("\n\nNota fuera del rango establecido");
+                    Console.Write("\nEdad: {0}" +
+                        "\nUsted es: {1}", edad, etapa[5]);
+                }
+                else ////Validacion para edad menor que 0 y mayor que 120
+                {
+                    Console.Write("\nError: Edad incorrecta.");
                 }
             }
             catch (Exception error) //Captura de las excepciones en caso de errores
