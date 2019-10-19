@@ -30,7 +30,7 @@ namespace Ejercicio3_2
 
             try //Manejo de excepciones en caso de errores
             {
-                promedio = (nota1 + nota2 + nota3 + nota4) / 4;
+                promedio = (nota1 + nota2 + nota3 + nota4) / 4; //Calculo del promedio de las 4 notas
 
                 if (promedio >= 0 && promedio < 65) //Validacion para promedio mayor o igual a 0 y menor a 65
                 {

@@ -11,12 +11,6 @@ namespace Ejercicio4_1
     {
         static void Main(string[] args)
         {
-            //Estableciendo los colores de las letras y el fondo de la consola
-            Console.BackgroundColor = ConsoleColor.Blue;
-            Console.ForegroundColor = ConsoleColor.White;
-            //Se limpia la pantalla antes de mostar los datos
-            Console.Clear();
-
             Console.WriteLine(" Conteo del 1 al 105"); //Titulo descriptivo del prpgrama
 
             for (int i = 1; i <= 105; i++) //Utilizamos el for para hacer el conteo
