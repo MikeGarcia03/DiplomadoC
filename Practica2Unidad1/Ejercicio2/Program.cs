@@ -10,6 +10,7 @@ namespace Ejercicio2
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
