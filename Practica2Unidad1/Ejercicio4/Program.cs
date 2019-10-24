@@ -17,7 +17,6 @@ namespace Ejercicio4
 
             do
             {
-
                 Console.Write("\n" + (x) + "- Ingrese el numero de cuenta: ");
                 numeroCuenta.Add(int.Parse(Console.ReadLine()));
                 v = numeroCuenta[i];
