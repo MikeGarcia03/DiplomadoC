@@ -48,7 +48,7 @@ namespace EjerRes1
         public void ImprimirUltimaFila()
         {
             Console.WriteLine("Ultima fila\n");
-            for (int c = 0; c < mat.GetLength(0); c++)
+            for (int c = 0; c < mat.GetLength(1); c++)
             {
                 Console.Write(mat[mat.GetLength(0) - 1, c] + " ");
             }
