@@ -16,5 +16,15 @@ namespace EjerPro3
             nombre = nomb;
             ano = an;
         }
+
+        public int RetornarAno()
+        {
+            return ano;
+        }
+
+        public string RetornarNombre()
+        {
+            return nombre;
+        }
     }
 }
