@@ -29,7 +29,7 @@ namespace ClaseFactura
             {
                 this.Cantidad = cantidad;
             }
-            this.total = this.total * this.producto.precio;
+            this.total = this.Cantidad * this.producto.precio;
         }
     }
 }

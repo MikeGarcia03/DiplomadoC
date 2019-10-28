@@ -55,7 +55,7 @@ namespace ClaseFactura
                     item.Total);
                 this.Total += this.Total;
             }
-            Console.WriteLine("TOTAL: "+this.Total);
+            Console.ReadKey();
         }
     }
 }
